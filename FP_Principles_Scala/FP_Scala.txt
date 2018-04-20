@@ -1,0 +1,13 @@
+- running scala proj:
+	- open build.sbt
+	- terminal open -> sbt -> run
+
+Week 1 
+- expression evaluation -> substitution model (lambda calculus), can be applied to expressions
+	if they don't have side effects
+	- evaluaton: reduce expression to value
+- evaluation strategies
+	- call by value: every function arg is evaluated once
+	- call by name: a function arg is not evaluated at all, if param is not used in function body
+- scala normally uses call-by-value
+- Newtons method
